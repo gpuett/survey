@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+      <form id="name">
+        <div class="form-group">
+          <label for="name">What is your name?:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+      </form>
+      <form id="food">
+      <label for="food">What is your favorite food?:</label>
+      <select class="form-control" id="food">
+        <option>Pizza</option>
+        <option>Burritos</option>
+        <option>Sushi</option>
+        <option>Sandwiches</option>
+      </select>
+    </form>
+    <form id="music">
+      <label for="music">What is your favorite music?:</label>
+      <div class="radio">
+    <label>
+      <input type="radio" name="music" value="rock" checked>
+      Rock and roll
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="music" value="pop">
+      Pop
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="music" value="jazz">
+      Jazz
+    </label>
+    <div class="radio">
+      <label>
+        <input type="radio" name="music" value="electronic">
+        Electronic
+      </label>
+    </div>
+    </div>
+  </form>
+  <form id="color">
+    <div class="form-group">
+  <label for="color">What is your favorite color?</label>
+  <input id="color" class="form-control" type="color">
+</div>
+</form>
+
+  </body>
